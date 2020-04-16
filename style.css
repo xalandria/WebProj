@@ -98,12 +98,12 @@ a:active {
   }
   #sales{
     width: 70%;
+    padding-bottom: 40px;
   }
   .card{
     width: 40%;
   }
   #foot{
-    padding-bottom: 40px;
     font-size: 175%;
   }
 }
