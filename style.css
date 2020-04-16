@@ -20,6 +20,9 @@ html {
 #navbar.h3 {
   font-weight: bold;
 }
+#sales-head{
+  text-align: center;
+}
 #sales {
   width: 88.5%;
   float: right;
@@ -47,6 +50,8 @@ html {
   background-color: darkred;
   position: fixed;
   bottom: 0;
+  padding-bottom:25px;
+  font-size: 125%;
   width: 100%;
 }
 .card {
@@ -78,4 +83,24 @@ a:visited,
 a:hover,
 a:active {
   color: white;
+}
+
+@media only screen and (max-width: 768px)
+{
+  #navbar{
+    width: 30%;
+  }
+  #navbar-items{
+    font-size: 175%;
+  }
+  #navbar-head{
+    font-size: 175%;
+  }
+  #sales{
+    width: 70%;
+  }
+  .card{
+    width: 40%;
+  }
+  
 }
